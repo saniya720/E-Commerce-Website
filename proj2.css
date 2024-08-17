@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+#task-list .task {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+}
+
+.task-category {
+  font-weight: bold;
+}
+
+.task-actions {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.task-actions button {
+  margin-left: 5px;
+}
